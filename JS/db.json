@@ -1,0 +1,43 @@
+{
+  "course": [
+    {
+      "id": 1,
+      "name": "Kiến thức nhập môn IT",
+      "description": "Để có cái nhìn tổng quan về ngành IT - Lập trình web các bạn nên xem các videos tại khóa này trước nhé.",
+      "cost": 0
+    },
+    {
+      "id": 2,
+      "name": "HTML CSS từ Zero đến Hero",
+      "description": "Trong khóa này chúng ta sẽ cùng nhau xây dựng giao diện 2 trang web là The Band & Shopee.",
+      "cost": 0
+    },
+    {
+      "id": 3,
+      "name": "HTML CSS Pro",
+      "description": "Từ cơ bản tới chuyên sâu, thực hành 8 dụ án, hàng trăm bài tập, trang hỏi đáp riêng, cấp chứng chỉ sau khóa học và mua một lần học mãi mãi.",
+      "cost": 1299000
+    },
+    {
+      "id": 4,
+      "name": "Responsive Với Grid System",
+      "description": "Trong khóa này chúng ta sẽ học về cách xây dụng giao diện web responsive với Grid System, tương tự Bootstrap 4.",
+      "cost": 0
+    },
+    {
+      "name": "Lập trình JavaScipt cơ bản",
+      "description": "Học Javascript cơ bản phù hợp cho người chưa từng học lập trình. Với hơn 100 bài học và có bài tập thực hành sau mỗi bài học.",
+      "id": 6
+    },
+    {
+      "name": "Lập trình JavaScript nâng cao",
+      "description": "Hiểu sâu hơn về cách Javascript hoạt động, tìm hiểu về IIFE, closure, reference types, this keyword, bind, call, apply, prototype, ...",
+      "id": 7
+    },
+    {
+      "name": "Làm việc với terminal &amp; Ubuntu đã sửa",
+      "description": "Sở hữu một Terminal hiện đại, mạnh mẽ trong tùy biến và học cách làm việc với Ubuntu là một bước quan trọng trên con đường trở thành một Web Developer.",
+      "id": 8
+    }
+  ]
+}

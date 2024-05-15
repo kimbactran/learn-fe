@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    font-family: system-ui, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+body > div {
+    margin: auto;
+}
+
+.form{
+    background-color: white;
+    border-radius: 2px;
+    min-height: 100px;
+    width: 360px;
+    padding: 32px 24px;
+    box-shadow: 0 2px 5px 0 rgba(51, 63, 73, 0.1);
+    align-self: center;
+}
+
+h3, p {
+    text-align: center;
+    margin: 8px 16px;
+}
+
+p{
+    font-size: 14px;
+    color: #636d77;
+    font-weight: lighter;
+    font-weight: 300;
+}
+
+.spacer{
+    height: 36px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.form-lable{
+    font-weight: 700;
+    padding-bottom: 6px;
+    line-height: 18px;
+    font-style: 14px;
+}
+
+.form-input{
+    height: 40px;
+    padding: 8px 12px;
+    border: 1px solid #b3b3b3;
+    border-radius: 3px;
+    outline: none;
+    font-style: 14px;
+}
+
+.form-input:hover{
+    border-color: #1ac7b6;
+}
+.form-group.invalid .form-message {
+    color: #f33a58;
+  }
+
+.form-message{
+    font-style: 14px;
+    line-height: 16px;
+    padding: 4px 0 0;
+}
+
+.btnResgister{
+    outline: none;
+    text-align: center;
+    padding: 12px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    border: none;
+    background-color: #1dbfaf;
+    color: #333;
+    margin-top: 12px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btnResgister:hover{
+    background-color: #1ac7b6;
+}
+
+.gender {
+    display: flex;
+}
+.gender .male {
+    height: 40px;
+    font-style: 14px;
+    padding: 9px 16px;
+    text-align: center;
+}
+
+.gender .female {
+    height: 40px;
+    font-style: 14px;
+    padding: 9px 16px;
+    text-align: center;
+}

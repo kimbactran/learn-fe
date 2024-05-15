@@ -1,0 +1,31 @@
+/* p {
+    color:blueviolet;
+}
+
+.background {
+    background-color: aquamarine;
+    width: 500px;
+    height: 500px;
+    overflow:hidden;
+
+} */
+
+/* .background2 {
+    background-image: url(https://images.unsplash.com/photo-1684410767098-ef2450dde421?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=969&q=80);
+    width: 100%;
+    height: 1000px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+.box {
+    width: 200px;
+    height: 300px;
+    background-color: #ffa400;
+    border: 4px solid yellow;
+    padding: 10px;
+    margin: 16px;
+    text-align: center;
+    border-radius: 4px;
+}

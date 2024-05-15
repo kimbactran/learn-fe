@@ -1,0 +1,63 @@
+* Thẻ
+Thẻ rThdeẻ: Ở trên
+Thẻ Footer: Ở dưới
+Thẻ aside: Bên cạnh
+Thẻ nav: Làm menu
+Thẻ main: Phần chính của trang
+Thẻ section bao 1 thẻ nào đó
+Thẻ artical: dùng cho 1 bài viết
+Thẻ iframe: dùng để nhúng 1 video vào
+Thẻ span: Dùng cho những văn bản ngắn
+Thẻ strong, bold, italic: Chỉnh đậm nhạt....
+Thẻ Inline: có độ rộng bằng nội dung mà nó chứ, nếu có nhiều thẻ inline thì sẽ cùng nằm trên 1 dòng
+, bị hạn chế về thuộc tính CSS, khi nội dung chứa ngắn
+Thẻ Block: Có độ rộng full bằng phần tử cha chứa nó, nếu nhiều thẻ block nằm với nhau thì nó sẽ xuống dòng
+, Khi nội dung chứa dài
+Khi thiết kế dùng phù hợp cho từng trường hợp
+* Sự khác nhau giữa class và id
+- class: có thể trùng nhau, sử dụng cho nhiều phần tử giống nhau đặt tên thế nào cũng được
+- id: k được trùng nhau, duy nhất
+-Quy tắc đặt class: nên đặt bằng tiếng anh, đặt theo Bem
+* BEM - Block Element Modifier
+- BEM: là 1 pp đặt tên trong HTML và CSS
+Một số mẹo nhanh trong VSC
+. tượng trưng cho class
+# tượng trưng cho id
+di chuyển giữa các tab alt + mũi tên lên xuống
+cop dòng nhanh shift alt + mũi tên xuống
+chọn nhiều 
+Cấu trúc 1 đoạn code trong css
+selector{
+	property: value;
+}
+
+* Selectors:
+- Tag: p, div, h1, main, a, span
+- Class: .demo, .header, .boy
+- ID: #container, #footer
+* Property: Các thuộc tính trong CSS
+* Value: Giá trị của các thuộc tính
+
+Thuộc tính Color - Hiển thị màu chữ
+name: red, orange, blue, green
+hexa: #ffa400, #ff7870
+rgb: rgb(0,0,0), rgb(255,255,255)
+rgba
+alpa: opacity 0 -> 1
+
+Thuộc tính Background-color - Hiển thị màu nền
+Background cần có thuộc tính chiều rộng và chiều cao
+
+^ bắt đầu
+$ kết thúc 
+* có chứa
+= so sánh
+
+hover đi chuột vào
+
+ưu tiên top left hơn trong position
+
+
+
+
+

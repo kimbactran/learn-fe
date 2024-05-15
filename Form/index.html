@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main">
+        <form action="" method="POST" class="form" id="form-1">
+            <h3 class="heading">Thành viên đăng ký</h3>
+            <p class="desc">Cùng nhau học lập trình miễn phí tại F8 ❤️</p>
+            <!--Khoảng trắng-->
+            <div class="spacer"></div> 
+            
+            <div class="form-group">
+
+                <label for="fullname" class="form-lable" >Tên đầy đủ</label>
+                <input id = "fullname" name="fullname" type="text" class="form-input" placeholder="VD: Kim Bắc">
+                <span class="form-message"></span>
+            </div>
+            <div class="form-group">
+
+                <label for="email" class="form-lable" >Email</label>
+                <input id = "email" name="email" type="text" class="form-input" placeholder="VD: email@domain.com">
+                <span class="form-message"></span>
+            </div>
+            <div class="form-group">
+
+                <label for="password" class="form-lable" >Mật khẩu</label>
+                <input id = "password" name="password" type="password" class="form-input" placeholder="Nhập mật khẩu">
+                <span class="form-message"></span>
+            </div>
+            <div class="form-group">
+
+                <label for="repassword" class="form-lable" >Nhập lại mật khẩu</label>
+                <input id = "repassword" name="repassword" type="password" class="form-input" placeholder="Nhập lại mật khẩu">
+                <span class="form-message"></span>
+            </div>
+
+            <div class="form-group">
+
+                <label for="gender" class="form-lable" >Giới tính</label>
+                <div class="gender">
+
+                    <input id = "male" name="gender" type="radio" class="form-input" placeholder="Nhập lại mật khẩu">
+                    <span class="male">Nam</span>
+                </div>
+                <div class="gender">
+
+                    <input id = "female" name="gender" type="radio" class="form-input" placeholder="Nhập lại mật khẩu">
+                    <span class="female">Nữ</span>
+                </div>
+                <span class="form-message"></span>
+            </div>
+
+            <button class="btnResgister">
+                Đăng ký
+            </button>
+        </form>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>

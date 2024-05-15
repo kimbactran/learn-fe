@@ -1,0 +1,1 @@
+alert('kim bap cute qua!')
